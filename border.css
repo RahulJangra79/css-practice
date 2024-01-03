@@ -1,0 +1,63 @@
+.a{
+    border: 3px solid black;
+}
+
+.b{
+    border: 3px dotted red;
+}
+
+.c{
+    border: 3px dashed green;
+}
+
+.d{
+    border: 5px solid blue;
+border-style: double;
+}
+
+.e{
+    border: 5px groove ;
+}
+
+.f{
+    border: 5px ridge;
+}
+.g{
+    border: 5px inset pink;
+}
+
+.h{
+    border: 5px outset ;
+}
+
+.i{
+    border: 5px grey;
+    border-style:  solid dotted dashed double;
+}
+
+.j{
+    border: hidden;
+    background-color: wheat;
+    border-left: 5px solid orange;
+}
+
+.j:hover{
+    border: 1px solid rgb(79, 180, 213);
+    background-color: lightskyblue;
+    border-left: 5px solid rgb(79, 180, 213);
+    box-shadow: 2px 2px 5px black;
+    transition: .2s;
+}
+
+.rahul{
+    font-size: 70px;
+    font-family: cooper;
+    margin: 1% 0% 0% 1%;
+    background-image: url(photo.avif);
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    
+}
